@@ -36,10 +36,10 @@ def ClearContact(requst,id):
     return redirect('contact')
 
 def TweetGetir(request):
-    consumer_key ='SPi1R25BOz2HIZmQdpDAu8l3x'
-    consumer_secret ='IeQ2X0wyV5uDWsxcHyx2hvkTY9hcXMYBDPyr4alevLszzZE6fZ'
-    access_token ='1019708295043534850-ZNzdZQxFJFXvrrhiiRfFAihXv8rDRz'
-    access_token_secret ='kmYYP876OjA9MoBGO8J04oY4iXuNc38lutFAU0OKGy8dn'
+    consumer_key =''
+    consumer_secret =''
+    access_token =''
+    access_token_secret =''
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api=tweepy.API(auth)
